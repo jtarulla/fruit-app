@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FruitList component renders the component 1`] = `
+<div class="fruit-list">
+  <div class="container">
+    <div class="fruit-list--content">
+      <div class="fruit-card">
+        <div class="fruit-card--img"><img src="https://raw.githubusercontent.com/cycloidio/fictional-eureka/master/assets/pineapple.jpg" alt="pineapple"></div>
+        <div class="fruit-card--title">
+          <div class="fruit-card--title-text">
+            pineapple
+          </div>
+          <div class="fruit-card--title-delete"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" role="img" aria-labelledby="icon-icon-close-description" class="icon icon-icon-close">
+              <title id="icon-icon-close-description">icon close</title>
+              <path d="M41.75 5L25 21.75 8.25 5 5 8.25 21.75 25 5 41.75 8.25 45 25 28.25 41.75 45 45 41.75 28.25 25 45 8.25 41.75 5z" data-name="SVG/Close" class="cls-1"></path>
+            </svg></div>
+        </div> <a>
+          <div class="fruit-card--view-more">
+            details
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.67 19.8">
+              <g id="Layer_2" data-name="Layer 2">
+                <g id="Layer_1-2" data-name="Layer 1">
+                  <path d="M0,18,1.77,19.8l9.9-9.9L1.77,0,0,1.77,8.13,9.9Z"></path>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </a>
+      </div>
+      <div class="fruit-card">
+        <div class="fruit-card--img"><img src="https://raw.githubusercontent.com/cycloidio/fictional-eureka/master/assets/orange.jpg" alt="orange"></div>
+        <div class="fruit-card--title">
+          <div class="fruit-card--title-text">
+            orange
+          </div>
+          <div class="fruit-card--title-delete"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" role="img" aria-labelledby="icon-icon-close-description" class="icon icon-icon-close">
+              <title id="icon-icon-close-description">icon close</title>
+              <path d="M41.75 5L25 21.75 8.25 5 5 8.25 21.75 25 5 41.75 8.25 45 25 28.25 41.75 45 45 41.75 28.25 25 45 8.25 41.75 5z" data-name="SVG/Close" class="cls-1"></path>
+            </svg></div>
+        </div> <a>
+          <div class="fruit-card--view-more">
+            details
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.67 19.8">
+              <g id="Layer_2" data-name="Layer 2">
+                <g id="Layer_1-2" data-name="Layer 1">
+                  <path d="M0,18,1.77,19.8l9.9-9.9L1.77,0,0,1.77,8.13,9.9Z"></path>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

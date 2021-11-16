@@ -1,0 +1,35 @@
+@mixin tabletMedia {
+	@media (min-width: 600px) {
+		@content;
+	}
+}
+
+@mixin desktopMedia {
+	@media (min-width: 960px) {
+		@content;
+	}
+}
+
+@mixin largeDesktopMedia {
+	@media (min-width: 1600px) {
+		@content;
+	}
+}
+
+@mixin button {
+    display: inline-block;
+    padding: .6em 2em;
+    margin: 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+    transition: $main-transition;
+
+    &:hover {
+        box-shadow: $modal-shadow;
+    }
+}

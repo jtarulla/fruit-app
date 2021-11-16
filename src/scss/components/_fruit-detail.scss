@@ -1,0 +1,100 @@
+.fruit-detail { 
+    margin-bottom: 40px;
+
+    &--content {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 25px;
+        align-items: center;
+        margin: auto;
+        border-radius: 20px;
+        background: $primary-color;
+        box-shadow: $box-shadow;
+    }
+
+    &--info {
+        padding: 30px;
+        border-top: 1px solid $secondary-color;
+        color: $secondary-color;
+    }
+
+    &--img {
+        padding: 20px;
+
+        img {
+            border-radius: 20px;
+            height: 200px;
+            width: 200px;
+        }
+    }
+    
+    &--back {
+        display: inline-flex;
+        align-items: center;
+        padding: 20px 0 40px;
+        font-size: 20px;
+        color: $primary-color;
+        transition: $main-transition;
+
+        svg {
+            width: 15px;
+            height: 15px;
+            padding-left: 5px;
+            fill: $primary-color;
+            transform: rotatey(180deg);
+        }
+    }
+    
+    &--title {
+        text-transform: uppercase;
+    }
+
+
+    @include tabletMedia {
+        &--back {
+            font-size: 24px;
+
+            svg {
+                width: 20px;
+                height: 20px;
+            }
+
+            &:hover {
+                text-decoration: underline;
+                opacity: 0.8;
+            }
+        }
+    
+        &--content {
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    
+        &--img img {
+            height: 220px;
+            width: 220px;
+        }
+
+        &--info {
+            border-top: none;
+            border-left: 1px solid $secondary-color;
+        }
+    }
+    
+    @include desktopMedia {
+        &--content {
+            width: 80%;
+        }
+        
+        &--img img {
+            height: 250px;
+            width: 250px;
+        }
+    }
+
+    @include largeDesktopMedia {
+        &--content {
+            width: 50%;
+        }
+    }
+}
