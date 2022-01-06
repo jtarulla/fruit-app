@@ -1,0 +1,34 @@
+.header {
+    padding: 25px 0;
+    background: #FFFFFF40;
+
+    @include tabletMedia {
+        padding: 30px 0 10px;
+        background: #FFFFFF40;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &--logo {
+        display: flex;
+        margin: auto;
+        width: 70px;
+        height: auto;
+    }
+
+    &--title {
+        text-decoration: none;
+        color: $primary-color;
+        transition: $main-transition;
+        
+        &:hover {
+            color: $primary-color;
+            opacity: .7;
+        }
+    }
+}
+

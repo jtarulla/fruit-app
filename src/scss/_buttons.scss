@@ -1,0 +1,22 @@
+.button-primary {
+    @include button;
+
+    color: $primary-color;
+    background-color: $secondary-color;
+
+    &:hover {
+        box-shadow: $modal-shadow;
+        opacity: .9;
+    }
+}
+
+.button-secondary {
+    @include button;
+
+    color: $secondary-color;
+    background-color: $primary-color;
+
+    &:hover {
+        box-shadow: $modal-shadow;
+    }
+}

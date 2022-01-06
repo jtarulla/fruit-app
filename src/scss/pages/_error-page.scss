@@ -1,0 +1,16 @@
+.error-page {
+    &--content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    &--image {
+        display: flex;
+        align-self: center;
+        width: 170px;
+        height: auto;
+        margin-top: 50px;
+    }
+}

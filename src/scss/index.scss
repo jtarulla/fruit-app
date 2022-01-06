@@ -1,0 +1,56 @@
+@import 'mixins';
+@import 'variables';
+@import 'animations';
+@import 'buttons';
+@import 'pages/home-page';
+@import 'pages/error-page';
+@import 'components/header';
+@import 'components/fruit-list';
+@import 'components/fruit-card';
+@import 'components/fruit-detail';
+@import 'components/fruit-form';
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $primary-color;
+    background-color: $secondary-color;
+    line-height: 1.2;
+    font-style: normal;
+}
+
+.container {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+
+    a {
+        text-decoration: none;
+        transition: $main-transition;
+    }
+
+    @include tabletMedia {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    @include desktopMedia {
+        padding-right: 55px;
+        padding-left: 55px;
+    }
+}
+
+.loading-spinner {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 20% auto;
+    border: 4px solid $primary-opaque-color;
+    border-top: 4px solid $tertiary-color;
+    border-radius: 50%;
+    animation: spin 1s ease-in infinite;
+}
